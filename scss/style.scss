@@ -1,0 +1,137 @@
+body {
+    background-color: #293740;
+}
+
+#main_nav {
+    background-image: url("../img/nav_map_2.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    bottom:0;
+    font-family: 'mailart_rubberstampregular';
+    height: 153px;
+    left:0;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+
+    ul {
+        margin: 52px 0 0 200px;
+
+        li {
+            float: left;
+            padding: 0; 
+            position: relative;
+            margin: 0 40px 0 0; 
+            text-transform:uppercase;
+
+            &.selected {
+                background-image: url('../img/red_x.png');
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+            }
+
+           &.home {
+                margin-left: -86px;
+                margin-top: 23px;
+           }
+
+           &.about {
+                margin-left: 14px;
+                margin-top: -7px;
+           }
+
+           &.gallery {
+                margin-left: -21px;
+                margin-top: 15px;
+           }
+
+            &.todo {
+                margin-left: -5px;
+                margin-top: -8px;
+            }
+
+            &.plan {
+                margin-left: -79px;
+                margin-top: 42px
+            }
+
+            a {
+                color: #000;
+                display: block;
+                font-size: 18px;
+                font-weight: bold;
+                padding: 30px;
+                text-decoration: none;
+                text-shadow: 0 0 2px white;
+            }
+
+            ul {
+                background: url('../img/menu_bg.png');
+                display: none;
+                left: 0;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                bottom: 70px;
+                width: 175px;
+
+                li {
+                    border: 1px solid #000;
+                    float: none;
+                    margin: 0;
+                    padding: 0;
+
+                    &:first-child {
+                        border-bottom: none;
+                    }
+
+                    &:nth-child(2) {
+                        border-bottom: none;
+                    }
+                }
+
+                a {
+                    font-size: 13px;
+                    padding: 10px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+}
+
+
+#pages {
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.page_wrapper {
+    margin: 0 auto;
+    width: 960px;
+
+    img {
+        width: 75%;
+    }
+}
+
+.home_copy {
+    display: block;
+    margin-top: 370px;
+    margin-left: 47px;
+    width: 558px;
+
+    p {
+        color: #f4eede;
+
+        &:first-child:first-letter {
+            font-family: arial;
+            font-size: 50px;
+        }
+    }
+}
+
+

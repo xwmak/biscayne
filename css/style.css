@@ -1,0 +1,138 @@
+/* line 1, ../scss/style.scss */
+body {
+  background-color: #293740;
+}
+
+/* line 5, ../scss/style.scss */
+#main_nav {
+  background-image: url("../img/nav_map_2.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  bottom: 0;
+  font-family: 'mailart_rubberstampregular';
+  height: 153px;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+/* line 17, ../scss/style.scss */
+#main_nav ul {
+  margin: 52px 0 0 200px;
+}
+/* line 20, ../scss/style.scss */
+#main_nav ul li {
+  float: left;
+  padding: 0;
+  position: relative;
+  margin: 0 40px 0 0;
+  text-transform: uppercase;
+}
+/* line 27, ../scss/style.scss */
+#main_nav ul li.selected {
+  background-image: url("../img/red_x.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+/* line 33, ../scss/style.scss */
+#main_nav ul li.home {
+  margin-left: -86px;
+  margin-top: 23px;
+}
+/* line 38, ../scss/style.scss */
+#main_nav ul li.about {
+  margin-left: 14px;
+  margin-top: -7px;
+}
+/* line 43, ../scss/style.scss */
+#main_nav ul li.gallery {
+  margin-left: -21px;
+  margin-top: 15px;
+}
+/* line 48, ../scss/style.scss */
+#main_nav ul li.todo {
+  margin-left: -5px;
+  margin-top: -8px;
+}
+/* line 53, ../scss/style.scss */
+#main_nav ul li.plan {
+  margin-left: -79px;
+  margin-top: 42px;
+}
+/* line 58, ../scss/style.scss */
+#main_nav ul li a {
+  color: #000;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 30px;
+  text-decoration: none;
+  text-shadow: 0 0 2px white;
+}
+/* line 68, ../scss/style.scss */
+#main_nav ul li ul {
+  background: url("../img/menu_bg.png");
+  display: none;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 70px;
+  width: 175px;
+}
+/* line 78, ../scss/style.scss */
+#main_nav ul li ul li {
+  border: 1px solid #000;
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 84, ../scss/style.scss */
+#main_nav ul li ul li:first-child {
+  border-bottom: none;
+}
+/* line 88, ../scss/style.scss */
+#main_nav ul li ul li:nth-child(2) {
+  border-bottom: none;
+}
+/* line 93, ../scss/style.scss */
+#main_nav ul li ul a {
+  font-size: 13px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* line 105, ../scss/style.scss */
+#pages {
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+/* line 112, ../scss/style.scss */
+.page_wrapper {
+  margin: 0 auto;
+  width: 960px;
+}
+/* line 116, ../scss/style.scss */
+.page_wrapper img {
+  width: 75%;
+}
+
+/* line 121, ../scss/style.scss */
+.home_copy {
+  display: block;
+  margin-top: 370px;
+  margin-left: 47px;
+  width: 558px;
+}
+/* line 127, ../scss/style.scss */
+.home_copy p {
+  color: #f4eede;
+}
+/* line 130, ../scss/style.scss */
+.home_copy p:first-child:first-letter {
+  font-family: arial;
+  font-size: 50px;
+}

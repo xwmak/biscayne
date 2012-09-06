@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Page</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		#main {
+			position: fixed;
+			bottom: 0;
+			background: url("bg.jpg") no-repeat;
+			height: 200px;
+			width: 100%;
+		}
+		#main ul { list-style: none; padding: 0; margin: 0 }
+		#main li {
+			padding: none; 
+			margin: 0; 
+			float: left; 
+			position: relative;
+			overflow: hidden;
+			text-indent: 9999px;
+		}
+		#main li:hover {
+			cursor: pointer;
+		}
+
+		#main .nav-one {
+			margin: 80px 0 0 55px;
+			background: url("one.png") no-repeat;
+			width: 80px;
+			height: 31px;
+		}
+
+		#main .nav-two {
+			margin: 40px 0 0 83px;
+			background: url("two.png") no-repeat;
+			width: 87px;
+			height: 31px;
+		}
+
+		#main .nav-three {
+			margin: 94px 0 0 117px;
+			background: url("three.png") no-repeat;
+			width: 124px;
+			height: 30px;
+		}
+
+	</style>
+</head>
+<body>
+	<nav id="main">
+		<ul>
+			<li class="nav-one"><a href="#">One</a></li>
+			<li class="nav-two"><a href="#">Two</a></li>
+			<li class="nav-three"><a href="#">Three</a></li>
+		</ul>
+	</nav>
+</body>
+</html>

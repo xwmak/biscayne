@@ -1,0 +1,114 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Biscayne National Park</title>
+	<meta name="description" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/nivo-slider.css">
+	<link href='http://fonts.googleapis.com/css?family=Life+Savers' rel='stylesheet' type='text/css'>
+	<script src="js/libs/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+
+<nav id='main_nav'>
+
+	<ul>
+		<li class="home top-level"><a href="#home_page">Home</a></li>
+		<li class="about top-level"><a href="#about_page">About</a></li>
+		<li class="gallery top-level"><a href="#gallery_page">Gallery</a></li>
+		<li class="todo top-level">
+			<a class="hover_state" href="#todo_page">
+				Things To Do
+			</a>
+			<ul>
+				<li><a href="#">Family Fun</a></li>
+				<li><a href="#">Entertainment</a></li>
+				<li><a href="#">Outdoor</a></li>
+			</ul>
+		</li>
+		<li class="plan top-level">
+			<a class="hover_state" href="#plan_page">
+				Set Sail
+			</a>
+			<ul>
+				<li><a href="#">Itinerary</a></li>
+				<li><a href="#">Hotels</a></li>
+				<li><a href="#">Travel</a></li>
+			</ul>
+		</li>	
+	</ul>
+</nav><!-- END nav -->	
+
+
+
+<div id="pages">
+	<div id="home_page" class="page selected">
+		<div class="home_copy">
+		<p>Dive into Biscayne’s natural beauty, filled with untouched islands,
+exotic coral reef, and histormic tales of pirates and alluring crystal blue waters. Your family will experience more than they could ever imagine at this national treasure. With countless land and sea adventures, you’ll find yourself enwrapped in a watery
+wonderland that you never knew existed. </p>
+		</div>
+		
+
+
+		
+
+	</div>
+
+	<div id="about_page" class="page">
+		<img src="edit.png" width='20%'>
+
+	</div>
+
+	<div id="gallery_page" class="page">
+		<div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="img/initial_gal.jpg" data-thumb="img/initial_gal.jpg" alt="palm tree" />
+              	<img src="img/sunset_gal.jpg" data-thumb="img/sunset_gal.jpg" alt="sunset"/>
+                <img src="img/scuba_gal.jpg" data-thumb="img/scuba_gal.jpg" alt="scuba" data-transition="slideInLeft" />
+                <img src="img/mangrove_gal.jpg" data-thumb="img/mangrove_gal.jpg" alt="mangroves" title="#htmlcaption" />
+                <img src="img/kayaker_gal.jpg" data-thumb="img/kayaker_gal.jpg" alt="kayaker" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+
+
+	</div>
+
+	<div id="todo_page" class="page">
+		<img src="fourteen.jpeg" width='20%'>
+	</div>
+
+	<div id="plan_page" class="page">
+		<img src="twelve.jpeg" width='20%'>
+	</div>
+
+</div>
+  
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+   <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+
+
+</body>
+</html>
